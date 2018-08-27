@@ -363,7 +363,7 @@ class Breadcrumbs
                 } else {
                     $single_links[] = $this->makeLink(
                         \get_the_title($parent->ID),
-                        'javascript:void(0)'
+                        ''
                     );
                 }
                 $parent_id = $parent->post_parent;
